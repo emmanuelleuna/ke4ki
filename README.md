@@ -6,7 +6,7 @@ The goal of this work is to transform unstructured PDF documents (e.g., food com
 
 ---
 
-## 🚀 Overview  
+## Overview  
 
 The pipeline combines **instruction-tuned Large Language Models (LLMs)** with **template-guided prompting** and **schema validation** to extract domain-specific knowledge.  
 It automatically maps extracted entities and relations to an ORKG template and indexes them into the knowledge graph.  
@@ -20,9 +20,9 @@ It automatically maps extracted entities and relations to an ORKG template and i
 
 ---
 
-## 📂 Repository Structure  
+## Repository Structure  
 
-📁 paper2contribution-ke4ki
+paper2contribution-ke4ki
 │
 ├── data/ # Dataset used for training and evaluation (JSON/JSONL)
 ├── notebooks/ # Jupyter notebooks for data exploration & experiments
