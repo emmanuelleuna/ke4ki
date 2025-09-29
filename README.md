@@ -1,4 +1,4 @@
-# Paper2Contribution – KE4KI Pipeline  
+# Paper2ResearchContribution – KE4KI Pipeline  
 
 This repository contains the code and experiments developed for my Master's Thesis:  
 **"Paper2Contribution – KE4KI: Knowledge Extraction for Knowledge Indexing in Digital Libraries"**.  
