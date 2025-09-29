@@ -22,6 +22,7 @@ It automatically maps extracted entities and relations to an ORKG template and i
 
 ## Repository Structure  
 
+```
 paper2contribution-ke4ki
 │
 ├── data/ # Dataset used for training and evaluation (JSON/JSONL)
@@ -34,4 +35,6 @@ paper2contribution-ke4ki
 ├── results/ # Evaluation results (ROUGE, BLEU, Precision/Recall)
 ├── requirements.txt # Python dependencies
 └── README.md # This file
+```
+
 
