@@ -1,0 +1,184 @@
+[
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R677462",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P142021",
+        "propertyShapePathLabel": "food type"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R677462",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P142021",
+        "propertyShapePathLabel": "food type"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R677459",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P142023",
+        "propertyShapePathLabel": "scientific name"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R677459",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P142023",
+        "propertyShapePathLabel": "scientific name"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R677464",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P20098",
+        "propertyShapePathLabel": "has description"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R677464",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P20098",
+        "propertyShapePathLabel": "has description"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R677465",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P135009",
+        "propertyShapePathLabel": "geographical area"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R677465",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P135009",
+        "propertyShapePathLabel": "geographical area"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R677457",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P142020",
+        "propertyShapePathLabel": "local name"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R677457",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P142020",
+        "propertyShapePathLabel": "local name"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R677461",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P142022",
+        "propertyShapePathLabel": "food form"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R677461",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P142022",
+        "propertyShapePathLabel": "food form"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R677458",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P142024",
+        "propertyShapePathLabel": "common name"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R677458",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P142024",
+        "propertyShapePathLabel": "common name"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R1361187",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P142026",
+        "propertyShapePathLabel": "food image"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R1361187",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P142026",
+        "propertyShapePathLabel": "food image"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R707241",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P151019",
+        "propertyShapePathLabel": "eaten with"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R707241",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P151019",
+        "propertyShapePathLabel": "eaten with"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R707751",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P35126",
+        "propertyShapePathLabel": "Group"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R707751",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P35126",
+        "propertyShapePathLabel": "Group"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R677460",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P6003",
+        "propertyShapePathLabel": "has ingredient"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R677460",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P6003",
+        "propertyShapePathLabel": "has ingredient"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R707240",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P62002",
+        "propertyShapePathLabel": "food group"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R707240",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P62002",
+        "propertyShapePathLabel": "food group"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R677466",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P62073",
+        "propertyShapePathLabel": "food component"
+    },
+    {
+        "template": "http://orkg.org/orkg/resource/R677398",
+        "templateLabel": "Food template",
+        "propertyShape": "http://orkg.org/orkg/resource/R677466",
+        "propertyShapePath": "http://orkg.org/orkg/predicate/P62073",
+        "propertyShapePathLabel": "food component"
+    }
+]

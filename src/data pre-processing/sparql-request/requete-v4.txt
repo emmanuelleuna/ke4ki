@@ -1,0 +1,88 @@
+PREFIX orkgr: <http://orkg.org/orkg/resource/>
+PREFIX orkgc: <http://orkg.org/orkg/class/>
+PREFIX orkgp: <http://orkg.org/orkg/predicate/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?paper ?paper_title ?url ?author ?publication_month ?publication_year
+       ?research_field ?research_field_label ?contribution
+       ?food_type_label ?scientific_name_label ?description
+       ?geo_area_label ?local_name_label ?food_form_label ?common_name_label
+       ?food_image_label ?eaten_with_label ?group_label ?ingredient_label
+       ?food_group_label
+       ?food_component_label ?numeric_value ?unit_label
+WHERE {
+  BIND(orkgr:R708567 AS ?paper)
+
+  ?paper rdf:type orkgc:Paper ;
+         rdfs:label ?paper_title ;
+         orkgp:hasAuthors ?authors ;
+         orkgp:P30 ?research_field ;
+         orkgp:P31 ?contribution .
+
+  # 💡 Filtrer uniquement les contributions principales
+#   ?contribution rdf:type orkgc:Contribution ;
+#                 rdf:type orkgr:C34019 ;  # C34019 = "Food"
+#                 orkgp:usesTemplate orkgr:R677398 .  # R677398 = "Food template"
+
+  ?research_field rdfs:label ?research_field_label .
+  ?authors ?seq_n ?author .
+
+  OPTIONAL { ?paper orkgp:url ?url } .
+  OPTIONAL { ?paper orkgp:P28 ?publication_month } .
+  OPTIONAL { ?paper orkgp:P29 ?publication_year } .
+
+  # Propriétés simples
+  OPTIONAL { ?contribution orkgp:P142021 ?food_type .
+             ?food_type rdfs:label ?food_type_label . }
+
+  OPTIONAL { ?contribution orkgp:P142023 ?scientific_name .
+             ?scientific_name rdfs:label ?scientific_name_label . }
+
+  OPTIONAL { ?contribution orkgp:P20098 ?description . }
+
+  OPTIONAL { ?contribution orkgp:P135009 ?geo_area .
+             ?geo_area rdfs:label ?geo_area_label . }
+
+  OPTIONAL { ?contribution orkgp:P142020 ?local_name .
+             ?local_name rdfs:label ?local_name_label . }
+
+  OPTIONAL { ?contribution orkgp:P142022 ?food_form .
+             ?food_form rdfs:label ?food_form_label . }
+
+  OPTIONAL { ?contribution orkgp:P142024 ?common_name .
+             ?common_name rdfs:label ?common_name_label . }
+
+  OPTIONAL { ?contribution orkgp:P142026 ?food_image .
+             ?food_image rdfs:label ?food_image_label . }
+
+  OPTIONAL { ?contribution orkgp:P151019 ?eaten_with .
+             ?eaten_with rdfs:label ?eaten_with_label . }
+
+  OPTIONAL { ?contribution orkgp:P35126 ?group .
+             ?group rdfs:label ?group_label . }
+
+  OPTIONAL { ?contribution orkgp:P6003 ?ingredient .
+             ?ingredient rdfs:label ?ingredient_label . }
+
+  OPTIONAL { ?contribution orkgp:P62002 ?food_group .
+             ?food_group rdfs:label ?food_group_label . }
+
+  # Propriétés complexes : food_component → value (numeric) + unit
+  OPTIONAL {
+    ?contribution orkgp:P62073 ?food_component .
+    OPTIONAL { ?food_component rdfs:label ?food_component_label . }
+
+    OPTIONAL {
+      ?food_component orkgp:P16454 ?quantity_value .
+      ?quantity_value orkgp:P16002 ?numeric_value .
+      OPTIONAL {
+        ?quantity_value orkgp:P16003 ?unit .
+        ?unit rdfs:label ?unit_label .
+      }
+    }
+  }
+
+  FILTER(REGEX(STR(?seq_n), CONCAT(STR(rdf:), "_\\d+")))
+}
+
