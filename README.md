@@ -20,21 +20,3 @@ It automatically maps extracted entities and relations to an ORKG template and i
 
 ---
 
-## Repository Structure  
-
-```
-paper2contribution-ke4ki
-│
-├── data/ # Dataset used for training and evaluation (JSON/JSONL)
-├── notebooks/ # Jupyter notebooks for data exploration & experiments
-├── src/ # Main pipeline source code
-│ ├── extraction/ # LLM-based knowledge extraction
-│ ├── validation/ # Schema validation logic (Pydantic)
-│ ├── indexing/ # ORKG API integration for indexing
-│ └── utils/ # Helper functions and utilities
-├── results/ # Evaluation results (ROUGE, BLEU, Precision/Recall)
-├── requirements.txt # Python dependencies
-└── README.md # This file
-```
-
-
